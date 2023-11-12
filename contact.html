@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta tags for search engine-->
-    <meta name="description"
-        content="Jason Smith Resturant. Resturant, dining, events, Endgland, fine-dining, fancy">
+    <meta name="description" content="Jason Smith Resturant. Resturant, dining, events, Endgland, fine-dining, fancy">
     <meta name="keywords" content="Resturant, Jason Resturant, Smith Resturant, Endgland, South, Food, Eating">
     <!--Title-->
     <title>Jason Smith Resturant</title>
@@ -17,6 +17,7 @@
     <!--Conecting to our StyleSheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -28,32 +29,26 @@
         </label>
         <nav>
             <ul id="nav-stuff">
-                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="g.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="selected">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h2>History</h2>
-            <div>
-                <p>Brief history of our resturant</p>
-                <hr>
-            </div>
-            <div>
-                <h2>Our Team</h2>
-                <p>This is a brief introduction to our team members</p>
-                <hr>
-            </div>
-            <div>
-                <h2>Event Sechdule</h2>
-                <ul>
-                    <li>Wednesday: Classical Music 7pm-9pm</li>
-                    <li>Friday: Dance 8pm-9pm</li>
-                    <li>Saturday: Standup Comedy 7pm-9pm </li>
-                </ul>
-            </div>
+            <form method="post" id="contacts" action="https://formdump.codeinstitute.net">
+                <h2>Contact Us!</h2>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" required>
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" required>
+                <br>
+                <label for="date">Date</label>
+                <input type="date" name="date" required>
+                
+            </form>
         </section>
     </main>
     <footer>
@@ -82,4 +77,5 @@
     </footer>
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

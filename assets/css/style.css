@@ -1,6 +1,5 @@
 /* Google fonts import */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
     padding: 0;
@@ -27,24 +26,31 @@ header {
     align-items: baseline;
     
 }
+
+#nav-stuff {
+    font-size: 150%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
 .selected {
     border-bottom: 1px solid black;
 }
-#lists {
-    list-style-type: none;
-    font-size: 100%;
-    letter-spacing: 3px;
-    
+/**/
+nav li {
+    text-decoration: none;
+    color: black;
 }
-
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgba(240, 10, 10, 0.5);
     left: 0%;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #000000;
     display: none;
-    top: 100%;
+    top: 100%
+    
 }
 /* Nav bar dropdown */
 #nav-bar:checked~nav {
@@ -59,12 +65,9 @@ nav {
     font-size: 2rem;
 }
 main {
-    background-color: blueviolet;
+    margin-top: 100px;
     flex: 1 0 auto;
 }
-
-
-
 
 
 
@@ -82,4 +85,26 @@ footer {
 #socials i {
     font-size: 200%;
     color: black;
+}
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+#photos {
+    line-height: 0;
+}
+
+/*For phones*
+@media screen and (min-width: 768px) {
+
+}
+
+/*For tablets*
+@media screen and (min-width: 992px) {
+
+}
+ /*For Laptops and above*
+@media screen and (min-width: 1200px) {
+    
 }
