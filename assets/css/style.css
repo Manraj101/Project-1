@@ -88,14 +88,7 @@ main {
 }
 
 /*Alligning image and text*/
-#chefs {
-    display: flex;
-    height: 100vh;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0 40px;
-}
+
 
 #chef-text{
     width: 50em;
@@ -104,13 +97,10 @@ main {
     border-radius: 10px;
     text-align: justify;
 }
-#chef-img{
-    width: 50em;
-    height: 50em;
-    padding: 10px 30px;
-    border-radius: 10px;
-    max-width: 100%;
-    max-height: 100%;
+
+#chefimg {
+    width: 140px;
+    height: 140px;
 }
 
 /*Footer*/
