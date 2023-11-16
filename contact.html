@@ -36,17 +36,26 @@
         </nav>
     </header>
     <main>
-        <section>
-            <form method="post" id="contacts" action="https://formdump.codeinstitute.net">
+        <section id="forms">
+            <form method="post" id="formup" action="https://formdump.codeinstitute.net">
                 <h2>Contact Us!</h2>
-                <label for="fname">First Name</label>
-                <input type="text" name="fname" required>
+                <label for="fname" >First Name</label>
+                <input type="text" name="fname" class="text-boxes" required>
                 <br>
                 <label for="lname">Last Name</label>
-                <input type="text" name="lname" required>
+                <input type="text" name="lname" class="text-boxes" required>
                 <br>
                 <label for="date">Date</label>
-                <input type="date" name="date" required>
+                <input type="date" name="date" class="text-boxes" required>
+                <br>
+                <label for="num">Phone Number</label>
+                <input type="number" name="num" class="text-boxes" required>
+                <br>
+                <label for="sub"></label>
+                <input type="submit" name="sub" class="button">
+                <br>
+                <label for="clear"></label>
+                <input type="reset" name="clear" class="button">
                 
             </form>
         </section>
@@ -54,23 +63,27 @@
     <footer>
         <ul id="socials">
             <li>
+                <a href="https://www.google.com/maps/@51.4971742,-0.1377235,3a,75y,345.27h,88.93t/data=!3m6!1e1!3m4!1s0vr-eHwuNwBBjStFh4NTiA!2e0!7i16384!8i8192?entry=ttu" target="_blank"
+                rel="noopener" aria-label="Visit Our Resturant"><i class="fa-solid fa-map-pin"></i></a>
+            </li>
+            <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    aria-label="Visit our Facebook page">
                     <i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
                 <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    aria-label="Visit our Twitter page">
                     <i class="fa-brands fa-twitter-square"></i></a>
             </li>
             <li>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    aria-label="Visit our YouTube page">
                     <i class="fa-brands fa-youtube-square"></i></a>
             </li>
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    aria-label="Visit our Instagram page">
                     <i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
