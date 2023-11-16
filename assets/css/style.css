@@ -87,8 +87,15 @@ main {
     text-align: center;
 }
 
-/*Alligning image and text*/
-
+#chefs {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-grow: 1;
+    padding: 0 40px;
+}
 
 #chef-text{
     width: 50em;
@@ -97,12 +104,6 @@ main {
     border-radius: 10px;
     text-align: justify;
 }
-
-#chefimg {
-    width: 140px;
-    height: 140px;
-}
-
 /*Footer*/
 footer {
     background-color: #ffffff;
