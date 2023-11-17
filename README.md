@@ -65,6 +65,7 @@ There is a clear navigation system set up which will direct you to all three pag
 	-   Includes links to the logo, home page, gallery, and sign-up page.
 	-   It is identical in design across the pages.
 	-   Allows easy navigation from page to page without having to revert back to the previous page via the 	 "back" button.
+
 ![image](https://github.com/Manraj101/Project-1/assets/121255616/39be90a3-1da7-47c4-8046-4d0608aae10f)
 
 * Main Heading
