@@ -36,6 +36,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000000;
+    text-align: center;
 }
 li{
     list-style-type: none;
@@ -88,16 +89,19 @@ main {
     text-align: center;
 }
 
-#chefs {
+.chefs {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: justify;
+    padding-left: 15%;
 }
-
-#chef-text{
-    width: 50em;
-    height: 50em;
-    padding: 10px 30px;
-    border-radius: 10px;
-    text-align: justify;
+.chef-img {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-top: 2rem;
 }
 /*Footer*/
 footer {
@@ -131,7 +135,6 @@ footer {
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 20px 10% 0 10%;
-
 
 }
 
