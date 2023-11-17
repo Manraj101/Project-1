@@ -29,7 +29,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
@@ -67,7 +67,7 @@ nav {
 }
 
 .selected {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000000;
 }
 /* Nav bar dropdown */
 #nav-bar:checked~nav {
@@ -117,7 +117,7 @@ footer {
 
 #socials i {
     font-size: 200%;
-    color: black;
+    color: #000000;
 }
 #photos img {
     width: 100%;
@@ -138,8 +138,16 @@ footer {
 
 }
 
-#formup {
-    color: white;
+#formup{
+    color: #fafafa;
+    font-size: medium;
+}
+#formup >h2 {
+    color: #fafafa;
+    
+}
+#formup > .button {
+    font-size: medium;
 }
 
 /*Text boxes*/
@@ -215,6 +223,7 @@ footer {
     #nav-stuff > li {
         padding-left: 1rem;
     }
+    
 }
 
 /*Media query for Laptops*/
@@ -233,4 +242,6 @@ footer {
     .nav-bar-l {
         display: none;
     }
+
+    
 }
