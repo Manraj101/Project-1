@@ -84,12 +84,13 @@ There is a clear navigation system set up which will direct you to all three pag
 	* Has the social links to Instagram, X (twitter), YouTube
 	* Also includes a google street view.
 	* Everything opens in a separate window.
+![Footer](Footer.png)
 
 
 * Gallery
 	* The gallery will provide the user with supporting images to see the different cuisines.
 	*	This section is valuable to the user as they will get a sneak peak into our carefully selected menu.
-	![Gallery](image.png)
+![Gallery](Gallery.png)
 
 * Contact Page
 	* Allows user to add in their personal details, and pick a date which they will like to come to restaurant.
