@@ -66,7 +66,7 @@ There is a clear navigation system set up which will direct you to all three pag
 	-   It is identical in design across the pages.
 	-   Allows easy navigation from page to page without having to revert back to the previous page via the 	 "back" button.
 
-![image](https://github.com/Manraj101/Project-1/assets/121255616/39be90a3-1da7-47c4-8046-4d0608aae10f)
+![Navigation Bar](assets/images/nav-bar.png)
 
 * Main Heading
 	* It is Comprised of a simple white back-ground colour
@@ -84,13 +84,14 @@ There is a clear navigation system set up which will direct you to all three pag
 	* Has the social links to Instagram, X (twitter), YouTube
 	* Also includes a google street view.
 	* Everything opens in a separate window.
-![Footer](Footer.png)
+ * 
+![Footer](assets/images/Footer.png)
 
 
 * Gallery
 	* The gallery will provide the user with supporting images to see the different cuisines.
 	*	This section is valuable to the user as they will get a sneak peak into our carefully selected menu.
-![Gallery](Gallery.png)
+![Gallery](assets/images/Gallery.png)
 
 * Contact Page
 	* Allows user to add in their personal details, and pick a date which they will like to come to restaurant.
