@@ -96,8 +96,8 @@ There is a clear navigation system set up which will direct you to all three pag
 * Contact Page
 	* Allows user to add in their personal details, and pick a date which they will like to come to restaurant.
 	* Special Request section, allows user to type in the number of people, and any requests.
-	
-
+![Contact Page](assets/images/contact.png)
+ 
 ### Features not added
 * In the future events might be changing
 * 
