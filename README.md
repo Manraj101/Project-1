@@ -89,6 +89,7 @@ There is a clear navigation system set up which will direct you to all three pag
 * Gallery
 	* The gallery will provide the user with supporting images to see the different cuisines.
 	*	This section is valuable to the user as they will get a sneak peak into our carefully selected menu.
+	![Gallery](image.png)
 
 * Contact Page
 	* Allows user to add in their personal details, and pick a date which they will like to come to restaurant.
