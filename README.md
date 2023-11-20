@@ -106,13 +106,13 @@ There is a clear navigation system set up which will direct you to all three pag
 	* Oswald is the main font used with sans-serif as its fallback font in case Oswald doesn't import for some reason
 * Wireframe
 	* Mobile wireframe:
-   		* ![mobile-wireframe](assets/imagess/Nav-M.png)
+   		 ![mobile-wireframe](assets/imagess/Nav-M.png)
 
     	* Tablet wireframe:
-   		* ![tablet-wireframe](assets/imagess/Nav-T.png)
+   		 ![tablet-wireframe](assets/imagess/Nav-T.png)
    	
     	* Desktop wireframe:
-     		* ![desktop-wireframe](assets/imagess/nav-D.png) 
+     		 ![desktop-wireframe](assets/imagess/nav-D.png) 
    		
 	
 * Color Scheme
