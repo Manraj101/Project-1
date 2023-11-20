@@ -132,7 +132,7 @@ There is a clear navigation system set up which will direct you to all three pag
 * [Am I Responsive?](https://ui.dev/amiresponsive)
 	* Mockup picture for the README file.
 * [Axure RP](https://www.axure.com)
-	*Used for making the wireframes. 	
+	* Used for making the wireframes. 	
 
 ## Testing
 * W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
