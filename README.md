@@ -105,7 +105,16 @@ There is a clear navigation system set up which will direct you to all three pag
 * Typography
 	* Oswald is the main font used with sans-serif as its fallback font in case Oswald doesn't import for some reason
 * Wireframe
-	* Used the Wireframe app
+	* Mobile wireframe:
+   		* ![mobile-wireframe](assets/imagess/Nav-M.png)
+
+    	* Tablet wireframe:
+   		* ![tablet-wireframe](assets/imagess/Nav-T.png)
+   	
+    	* Desktop wireframe:
+     		* ![desktop-wireframe](assets/imagess/nav-D.png) 
+   		
+	
 * Color Scheme
 	* Primary colors used in this website: 
 
@@ -122,6 +131,8 @@ There is a clear navigation system set up which will direct you to all three pag
 	* Import main fonts for the website.
 * [Am I Responsive?](https://ui.dev/amiresponsive)
 	* Mockup picture for the README file.
+* [Axure RP](https://www.axure.com)
+	*Used for making the wireframes. 	
 
 ## Testing
 * W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
