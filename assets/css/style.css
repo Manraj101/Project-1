@@ -82,6 +82,23 @@ nav {
     font-size: 2rem;
 }
 
+/*Form-dump*/
+#form-dump-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#form-dump {
+    display: flex;
+    justify-content: center;
+    padding: 10% 10% 10%;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
 /*Main content of the page*/
 main {
     margin-top: 56px;
@@ -94,14 +111,23 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    text-align: center;
     align-items: justify;
-    padding-left: 15%;
+
+}
+.chef-text {
+    margin-left: 20%;
+    text-align: left;
+    position:absolute;
+    justify-content: space-evenly;
+}
+.chef-text h2 {
+    text-align: left;
 }
 .chef-img {
-    width: 18.75rem;
-    height: 18.75rem;
-    margin-top: 2rem;
+
+    width: 19rem;
+    height: 20rem;
+    margin-bottom: 10%;
 }
 /*Footer*/
 footer {
@@ -195,7 +221,6 @@ footer {
         background-color: #3a3a3a;
         color: #fafafa;
     }
-
 }
 
 /*Media query for tablets*/
