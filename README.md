@@ -10,6 +10,8 @@ In the home section you can see the brief history of the Resturant, what their f
 
 You can also make bookings in advance via the contacts section and even venture into the gallery where they have images showcasing some of the food which they create.
 
+![responsive](assets/imagess/responsive.png)
+
 [You can view the website here](https://manraj101.github.io/Project-1/)
 
 
