@@ -1,12 +1,14 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/*Removed all pre-added browser style*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Basic style for the body*/
 body {
     min-height: 100vh;
     display: flex;
@@ -14,6 +16,8 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
+
+/*Basic style for the header*/
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -27,10 +31,13 @@ header {
     
 }
 
+/*Only affects a link in header*/
 header a {
     text-decoration: none;
     color: #000000;
 }
+
+/*Style for headings*/
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -38,10 +45,12 @@ h1, h2, h3 {
     color: #000000;
     text-align: center;
 }
+/*Removing the list style (the dot)*/
 li{
     list-style-type: none;
 }
 
+/*Styling the text within all paragraphs and lists*/
 p,li {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
@@ -60,6 +69,7 @@ nav {
     top: 100%
     
 }
+/*Affecting the text in list for the navbar*/
 #nav-stuff {
     font-size: 150%;
     letter-spacing: 3px;
@@ -82,7 +92,7 @@ nav {
     font-size: 2rem;
 }
 
-/*Form-dump*/
+/*Form-dump (Seperate page for a thank you message)*/
 #form-dump-1 {
     display: flex;
     flex-direction: column;
@@ -99,16 +109,16 @@ nav {
 }
 
 
-/*Main content of the page*/
+/*Styling the main*/
 main {
     margin-top: 56px;
     flex: 1 0 auto;
     text-align: center;
 }
 
+/*allinging the image and text in homepage*/
 .chefs {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: justify;
@@ -117,17 +127,15 @@ main {
 .chef-text {
     margin-left: 20%;
     text-align: left;
-    position:absolute;
-    justify-content: space-evenly;
 }
 .chef-text h2 {
     text-align: left;
 }
 .chef-img {
-
-    width: 19rem;
-    height: 20rem;
-    margin-bottom: 10%;
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-top: 30px;
 }
 /*Footer*/
 footer {
@@ -200,7 +208,7 @@ footer {
 
 
 /*Media query for phones*/
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 300px) {
 
     .text-boxes {
         background: transparent;
@@ -220,6 +228,9 @@ footer {
         font-size: 50%;
         background-color: #3a3a3a;
         color: #fafafa;
+    }
+    .chef-img {
+        width: 55%;
     }
 }
 
@@ -267,6 +278,8 @@ footer {
     .nav-bar-l {
         display: none;
     }
-
+    .chef-img {
+        width: 40%;
+    }
     
 }
