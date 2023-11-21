@@ -134,7 +134,7 @@ main {
 .chef-img {
     position: relative;
     float: left;
-    width: 40%;
+    width: 60%;
     margin-top: 30px;
 }
 /*Footer*/
@@ -228,9 +228,6 @@ footer {
         font-size: 50%;
         background-color: #3a3a3a;
         color: #fafafa;
-    }
-    .chef-img {
-        width: 55%;
     }
 }
 
