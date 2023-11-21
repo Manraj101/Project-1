@@ -99,7 +99,10 @@ There is a clear navigation system set up which will direct you to all three pag
 	* Allows user to add in their personal details, and pick a date which they will like to come to restaurant.
 	* Special Request section, allows user to type in the number of people, and any requests.
 ![Contact Page](assets/images/contact.png)
- 
+
+* Thank you page
+	*Page to thank the user for contacting the resturant
+  ![form-d](assets/imagess/form-d.png) 	
 ### Features not added
 * In the future events might be changing
 * 
@@ -118,7 +121,11 @@ There is a clear navigation system set up which will direct you to all three pag
    		
 	
 * Color Scheme
-	* Primary colors used in this website: 
+	* Primary colors used in this website:
+   ![hex-00000](assets/imagess/hex-0000.png)
+   ![hex-fffff](assets/imagess/hex-ffff.png)
+   ![hex-3a3a3a](assets/imagess/hex-3a.png)
+   ![hex-fafafa](assets/imagess/hex-fafafa.png)
 
 ##  Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
