@@ -142,9 +142,15 @@ There is a clear navigation system set up which will direct you to all three pag
 	* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 ### Validation results
 * index.html
+  ![index](assets/imagess/Index-doc-check.png)
 * gallery.html
+  ![gallery](assets/imagess/gallery-check.png)
 * contact.html
+  ![contact](assets/imagess/contact-check.png) 
 * style.css
+  ![css](assets/imagess/CSS-valid.png)   
+* form-dump.html
+  ![form](assets/imagess/form-check.png)
 
 ### Manual Testing
 * The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
