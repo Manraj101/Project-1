@@ -160,7 +160,13 @@ There is a clear navigation system set up which will direct you to all three pag
 *   Dev Tools was used to test how the site looks on various screen sizes.
 
 ### Lighthouse Report
+* Mobile resport
+  
+	![mobile](assets/imagess/mobile-lghthouse.png)
 
+* Desktop report
+  
+	![desktop](assets/imagess/Desktop-lighthouse.png)
 ## Deployment and local development
 
 ### GitHub Pages
