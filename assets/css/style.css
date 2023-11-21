@@ -92,21 +92,6 @@ nav {
     font-size: 2rem;
 }
 
-/*Form-dump (Seperate page for a thank you message)*/
-#form-dump-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px 0;
-}
-
-#form-dump {
-    display: flex;
-    justify-content: center;
-    padding: 10% 10% 10%;
-    align-items: center;
-    border-bottom: 2px solid rgb(255, 255, 255);
-}
 
 
 /*Styling the main*/
@@ -182,6 +167,24 @@ footer {
 #formup > .button {
     font-size: medium;
 }
+
+/*Form-dump (Seperate page for a thank you message)*/
+#form-dump-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#form-dump {
+    display: flex;
+    justify-content: center;
+    padding: 10% 10% 10%;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+}
+
 
 /*Text boxes*/
 .text-boxes {
