@@ -122,10 +122,11 @@ There is a clear navigation system set up which will direct you to all three pag
 	
 * Color Scheme
 	* Primary colors used in this website:
-   ![hex-00000](assets/imagess/hex-0000.png)
+   
    ![hex-fffff](assets/imagess/hex-ffff.png)
    ![hex-3a3a3a](assets/imagess/hex-3a.png)
    ![hex-fafafa](assets/imagess/hex-fafafa.png)
+   ![hex-00000](assets/imagess/hex-0000.png)
 
 ##  Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
